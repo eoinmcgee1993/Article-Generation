@@ -1,0 +1,1 @@
+export type ContentStatus='idea'|'draft'|'review'|'approved'|'scheduled'|'published'|'failed'; export type ContentType='article'|'note'|'quote'|'hook'|'repurpose'; export interface ContentItem{id:string;type:ContentType;title:string;body:string;status:ContentStatus;scheduledAt?:string;externalId?:string;}
